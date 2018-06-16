@@ -1,0 +1,14 @@
+{
+  "name": "js-microbenchmarks",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "array-traversal": "node benchmarks/array-traversal.js",
+    "array-vs-object": "node benchmarks/array-vs-object.js",
+    "class-vs-closure": "node benchmarks/class-vs-closure.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
